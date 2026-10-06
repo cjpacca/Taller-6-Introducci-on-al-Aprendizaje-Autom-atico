@@ -158,7 +158,7 @@ fig.colorbar(superficie, ax=ax, shrink=0.5, aspect=10, label='Predicción Z')
 # pero los scatter points sí aparecerán indicados si forzamos la leyenda
 import matplotlib.patches as mpatches
 red_patch = mpatches.Patch(color='red', label='Datos de entrenamiento')
-surface_patch = mpatches.Patch(color='viridis', label='Superficie Predicha')
+surface_patch = mpatches.Patch(color='teal', label='Superficie Predicha')
 plt.legend(handles=[red_patch])
 
 plt.show()
